@@ -7,7 +7,7 @@ from torch.nn.parameter import Parameter
 from torch.nn.modules.module import Module
 
 
-class deep_learning_on_GWAS(BaseModel):
+class multilayer_bionetwork(BaseModel):
     def __init__(self, node_num, type_num, emb_dim, gcn_layersize):
         super().__init__()
         self.node_num = node_num
