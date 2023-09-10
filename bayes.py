@@ -18,10 +18,3 @@ class Bayes:
             reslist = [0, 1]
             result.append(reslist[index[0]])
         return result
-
-
-        for i in range(0, len(ham_processed)):
-            class_labels.append(0)
-        for i in range(0, len(spam_processed)):
-            class_labels.append(1)
-        return (train_matrix, class_labels, my_vectorizer)
